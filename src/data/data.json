@@ -2,19 +2,19 @@
   "fr": 
       [
         {
-          "id"          : "platon",
+          "id"          : "platon-study-case",
           "title"       : "Projet Platon",
           "year"        : "2020",
           "description" : "Projet Platon est un projet opensource que la Fake Web Agency a créé afin de blablabla blablabla."
         },
         {
-          "id"          : "solane",
+          "id"          : "solane-study-case",
           "title"       : "Projet Solane",
           "year"        : "2019",
           "description" : "Projet Solane est un projet collaboratif que la Fake Web Agency a créé afin de blablabla blablabla."
         },
         {
-          "id"          : "sedal",
+          "id"          : "sedal-study-case",
           "title"       : "Projet Sedal",
           "year"        : "2020",
           "description" : "Projet Sedal est un projet collaboratif que la Fake Web Agency a créé afin de blablabla blablabla."
@@ -27,19 +27,19 @@
     [
       
       {
-        "id"          : "platon",
+        "id"          : "platon-study-case",
         "title"       : "Platon Project",
         "year"        : "2020",
         "description" : "Platon Project is an opensource project built in 2020 with the help of many collaborators such as blablabla"
       },
       {
-        "id"          : "solane",
+        "id"          : "solane-study-case",
         "title"       : "Solane Project",
         "year"        : "2019",
         "description" : "Project Solane is an opensource project built in 2020 with the help of many collaborators such as blablabla"
       },
       {
-        "id"          : "sedal",
+        "id"          : "sedal-study-case",
         "title"       : "Sedal Project",
         "year"        : "2020",
         "description" : "Sedal Project is an opensource project built in 2020 with the help of many collaborators such as blablabla"

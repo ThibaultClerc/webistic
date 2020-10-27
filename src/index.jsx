@@ -13,6 +13,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Works from './pages/Works'
+import StudyCase from './pages/Works/StudyCase'
 
 
 
@@ -28,6 +29,9 @@ export default function App() {
             </Route>
             <Route path="/works" exact>
               <Works />
+            </Route>
+            <Route path={`/works/:studyID`}>
+              <StudyCase />
             </Route>
             <Route path="/about">
               <About />

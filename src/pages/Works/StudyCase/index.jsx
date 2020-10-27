@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import datafr from '../../../data/fr/index'
-import dataen from '../../../data/en/index'
+import React, { useState, useEffect } from 'react';
+import projects from '../../../data/index'
 import { useParams } from "react-router-dom";
 
 export default function StudyCase() {
@@ -9,11 +8,22 @@ export default function StudyCase() {
 
   let { studyID } = useParams()
 
+  useEffect(() => {
+    setCurrentStudy(projects.fr.find(element => element.id === studyID))
+  }, [])
+
+  console.log(projects.fr)
+
   return (
-    <div>
-      <h1></h1>
-      <p></p>
-      <p></p>
-    </div>
+    <>
+    {!currentStudy && <p>loading</p>}
+    {currentStudy && 
+      <div>
+        <h1>{currentStudy.title}</h1>
+        <p>{currentStudy.year}</p>
+        <p>{currentStudy.description}</p>
+      </div>
+    }
+    </>
   )
 }
