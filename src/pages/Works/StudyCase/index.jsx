@@ -20,16 +20,16 @@ function StudyCase({language}) {
   console.log(projects.fr)
 
   return (
-    <>
+    <div className="container mt-5 pt-5">
     {!currentStudy && <p>loading</p>}
     {currentStudy && 
       <div>
-        <h1>{currentStudy.title}</h1>
-        <p>{currentStudy.year}</p>
+        <h1 className="display-1 d-inline">{currentStudy.title}</h1><span className="h1 font-weight-light">• {currentStudy.year}</span>
+        
         <p>{currentStudy.description}</p>
       </div>
     }
-    </>
+    </div>
   )
 }
 
