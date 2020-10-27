@@ -22,15 +22,15 @@ export default function Works() {
   
 
   return (
-    <div>
-      <ul>
-        {!studyCases && <p>loading...</p>}
-        {studyCases && studyCases.fr.map(data => 
-          <li>
-            <Link to={`${match.url}/${data.id}`} key={Math.random()}>{data.title}</Link>
-          </li>
-        )}
-      </ul>
-    </div>
+    <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 justify-content-center"> 
+      {!studyCases && <p>loading...</p>} 
+      {studyCases && studyCases.fr.map(data => 
+        <Link to={`${match.url}/${data.id}`} key={Math.random()} className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden text-decoration-none">
+          <div className="my-3 py-3">
+            <h2 className="display-2 text-white text-decoration-none">{data.title}</h2>
+          </div>
+        </Link>
+      )}
+      </div> 
   );
 }

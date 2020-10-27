@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import projects from '../../../data/index'
 import { useParams } from "react-router-dom";
+import { translationHOC } from '../../../HOC/translationHOC';
 
-export default function StudyCase() {
+function StudyCase({language}) {
 
   const [currentStudy, setCurrentStudy] = useState(null)
 
   let { studyID } = useParams()
 
   useEffect(() => {
-    setCurrentStudy(projects.fr.find(element => element.id === studyID))
-  }, [])
+    if (language.currentLanguage === 'fr') {
+      setCurrentStudy(projects.fr.find(element => element.id === studyID))
+    } else {
+      setCurrentStudy(projects.en.find(element => element.id === studyID))
+    }
+  }, [language])
 
   console.log(projects.fr)
 
@@ -27,3 +32,6 @@ export default function StudyCase() {
     </>
   )
 }
+
+
+export default translationHOC(StudyCase)

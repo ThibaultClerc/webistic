@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { translationHOC } from '../../HOC/translationHOC';
 
 function Button({language}) {
@@ -13,8 +12,8 @@ function Button({language}) {
 
   return (
     <>
-    {language.currentLanguage === 'en' && <button onClick={handleClick}>FR</button>}
-    {language.currentLanguage === 'fr' && <button onClick={handleClick}>ENG</button>}
+    {language.currentLanguage === 'en' && <button onClick={handleClick} style={{background: `url()`}}>FR</button>}
+    {language.currentLanguage === 'fr' && <button onClick={handleClick} className="Button">ENG</button>}
     </>
   )
 }
