@@ -1,0 +1,13 @@
+{
+  "navbar.home"       : "Home",
+  "navbar.about"      : "About",
+  "navbar.works"      : "Works",
+
+  "button.goToWorks"  : "See our projects",
+
+  "home.title"        : "Welcome",
+  "home.description"  : "We are a web development agency specialized into React Apps environments",
+
+  "about.title"       : "Home title for the agency About page",
+  "about.description" : "We are a web development agency specialized into React Apps environments"
+}

@@ -1,0 +1,13 @@
+{
+  "navbar.home"       : "Accueil",
+  "navbar.about"      : "A Propos",
+  "navbar.works"      : "Projets",
+
+  "button.goToWorks"  : "Voir nos projets",
+
+  "home.title"        : "Bienvenue",
+  "home.description"  : "Fake Dev Agency est une agence de dévelopement web spécialisé dans les environnements React et Vue",
+
+  "about.title"       : "Titre d'accueil pour l'agence page A Propos",
+  "about.description" : "Nous sommes une agence de dévelopement web spécialisé dans les environnements React et Vue"
+}
