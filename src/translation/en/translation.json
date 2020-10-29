@@ -5,9 +5,16 @@
 
   "button.goToWorks"  : "See our projects",
 
-  "home.title"        : "Welcome",
-  "home.description"  : "We are a web development agency specialized into React Apps environments",
+  "home.title"        : "We are a web development agency specialized into React Apps environments",
+  "home.description"  : "Thanks to our know-how, our experience and our listening, we support our clients in the creation of website: study, UX, conception, design, development, SEO. Our web agency is able to meet all your needs and develop a real digital strategy.",
 
-  "about.title"       : "Home title for the agency About page",
-  "about.description" : "We are a web development agency specialized into React Apps environments"
+  "about.title"       : "Websitic is a digital communication agency in Paris whose mission is to support you on your digital projects.",
+  "about.description" : "From the preliminary web project stage to the actual launch of the site, we are there for you. Throughout the life of our joint projects, we make every effort to offer you effective digital strategies and allow you to reach your goals. Leave your project in trustworthy hands, having accompanied PLATON, Solane or even Sedal to the top.",
+
+  "works.title"       : "Over the years, we have been able to support the best.",
+  "works.description" : "Find out step by step how we were there to launch your favorite brands.",
+
+  "links.works"       : "/works",
+  "links.about"       : "/about",
+  "links.study-case"  : "study-case"
 }

@@ -30,7 +30,6 @@ const getInitialLanguage = () => {
   } else {
     return localStorage.getItem('currentLanguage')
   }
-  // localStorage.getItem('currentLanguage') || 'fr'
 }
 
 export default function App() {

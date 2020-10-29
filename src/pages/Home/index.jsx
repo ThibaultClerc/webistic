@@ -5,9 +5,9 @@ import './style.css'
 
 export default function Home() {
   return (
-    <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light main-jumbotron">
+    <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-light main-jumbotron">
       <div className="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 className="display-1 font-weight-bold text-white"><FormattedMessage id="home.title"/></h1>
+        <h2 className="display-1 font-weight-bold text-white">Webistic</h2>
         <h1 className="lead font-weight-light text-white"><FormattedMessage id="home.description"/></h1>
         <Link to="/works" className="btn btn-info mt-3"><FormattedMessage id="button.goToWorks"/></Link>
       </div>

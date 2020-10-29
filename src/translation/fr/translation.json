@@ -5,9 +5,16 @@
 
   "button.goToWorks"  : "Voir nos projets",
 
-  "home.title"        : "Bienvenue",
-  "home.description"  : "Fake Dev Agency est une agence de dévelopement web spécialisé dans les environnements React et Vue",
+  "home.title"        : "Confiez vos rêves à des experts du Web",
+  "home.description"  : "Grâce à notre savoir-faire, notre expérience et notre écoute, nous accompagnons nos clients dans la création de site internet: étude, UX, conception, design, développement, SEO. Notre agence web est capable de répondre à tous vos besoins et d'élaborer une véritable stratégie digitale.",
 
-  "about.title"       : "Titre d'accueil pour l'agence page A Propos",
-  "about.description" : "Nous sommes une agence de dévelopement web spécialisé dans les environnements React et Vue"
+  "about.title"       : "Websitic est une Agence de communication digitale à paris ayant pour mission de vous accompagner sur vos projets digitaux.",
+  "about.description" : "De l’étape d’avant projet web au lancement effectif du site, nous somme là pour vous. Tout au long de la durée de vie de nos projets communs, nous mettons tout en oeuvre pour vous proposer des stratégies digitales efficaces et vous permettre d’atteindre vos objectifs. Laissez votre projet entre des mains dignes de confiance, ayant accompagné PLATON, Solane ou encore Sedal vers le sommet.",
+
+  "works.title"       : "Au fil des années, nous avons pu accompagner les meilleurs.",
+  "works.description" : "Découvrez pas à pas comment nous avons été présent pour lancer vos marques préférées.",
+
+  "links.works"       : "/projets",
+  "links.about"       : "/àpropos",
+  "links.study-case"  : "etude-de-cas"
 }

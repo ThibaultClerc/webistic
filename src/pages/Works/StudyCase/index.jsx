@@ -25,7 +25,7 @@ function StudyCase({language}) {
     {currentStudy && 
       <div>
         <h1 className="display-1 d-inline">{currentStudy.title}</h1><span className="h1 font-weight-light">• {currentStudy.year}</span>
-        
+        <h2>{currentStudy.subtitle}</h2>
         <p>{currentStudy.description}</p>
       </div>
     }
