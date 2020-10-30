@@ -25,7 +25,7 @@ const translations = {
 };
 
 const getInitialLanguage = () => {
-  if ((localStorage.getItem('currentLanguage') === 'null') || (localStorage.getItem('currentLanguage') === 'undefined')) {
+  if ((localStorage.getItem('currentLanguage') === null) || (localStorage.getItem('currentLanguage') === 'undefined')) {
     return 'fr'
   } else {
     return localStorage.getItem('currentLanguage')
@@ -33,7 +33,7 @@ const getInitialLanguage = () => {
 }
 
 export default function App() {
-  const [currentLanguage, setCurrentLanguage] = useState(() => getInitialLanguage())
+  const [currentLanguage, setCurrentLanguage] = useState(getInitialLanguage())
 
   useEffect(() => {
     localStorage.setItem('currentLanguage', currentLanguage);
